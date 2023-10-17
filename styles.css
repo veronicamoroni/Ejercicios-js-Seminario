@@ -1,0 +1,32 @@
+
+        
+body {
+    display: flex;
+    flex-direction: column; /* Cambiar la dirección del flujo a columna */
+    align-items: center;
+    justify-content: center; /* Centrar verticalmente en la página */
+    height: 100vh;
+    margin: 0;
+    background-color: #971111;
+}
+
+#container {
+    text-align: center;
+}
+
+#bomba {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    transition: all 0.3s ease;
+}
+h1 {
+    color: rgb(203, 199, 77);
+    font-family: Verdana,  sans-serif;
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
